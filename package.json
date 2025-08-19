@@ -1,1 +1,19 @@
-{\n  "name": "transportadora-backend",\n  "version": "1.0.0",\n  "main": "src/server.js",\n  "scripts": {\n    "start": "node src/server.js",\n    "dev": "nodemon src/server.js",\n    "prisma": "prisma"\n  },\n  "dependencies": {\n    "@prisma/client": "^5.0.0",\n    "express": "^4.18.2",\n    "dotenv": "^16.0.3",\n    "bcryptjs": "^2.4.3",\n    "jsonwebtoken": "^9.0.0"\n  },\n  "devDependencies": {\n    "nodemon": "^3.0.1",\n    "prisma": "^5.0.0"\n  }\n}
+{
+  "name": "transportadora",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "prisma": "^2.29.1",
+    "@prisma/client": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
